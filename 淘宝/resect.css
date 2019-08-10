@@ -1,0 +1,44 @@
+
+html,body{height:100%;}
+
+body,div,p,a,ul,li{margin:0;padding:0;}
+
+ul{list-style:none;}
+
+h1,h2,h3,h4,h5,h6,{margin:0;padding:0;}
+
+a{text-decoration:none;color:#3c3c3c;}
+/*去掉图片的边框   去掉盒子中引入图片时图片与盒子之间产生的空白*/
+img{border:0;vertical-align:middle;}
+
+input{margin:0;padding:0;}
+
+button{margin:0;padding:0;outline:none;}
+
+table{border-collapse:collapse;/*边框模式  合并的模式*/}
+
+th,td{padding:0;}
+
+i{font-style:normal;}
+
+body{font:12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif; color:#3c3c3c; background-color:#f4f4f4;}
+
+/*清除浮动*/
+.clearfix:after{content:""; display:block; clear:both;}
+/*左右浮动*/
+.fl{float:left;}
+.fr{float:right;}
+/*页面居中*/
+.layer{width:1190px;margin:0 auto;}
+/*淘宝红*/
+.c4{color:#f40;}
+/*淘宝黄*/
+.c5{color:#f50;}
+/*离上外边距10像素*/
+.mt10{margin-top:10px;}
+/*离左外边距10像素*/
+.mr10{margin-right:10px;}
+/*离右外边距7像素*/
+.mr7{margin-right:7px;}
+/*离右外边距5像素*/
+.mr5{margin-right:5px;}
